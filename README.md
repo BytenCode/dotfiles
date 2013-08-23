@@ -57,7 +57,7 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 ```
 
 
-## Author (How I forked from)
+## Author (Who I forked from)
 
 | [![twitter/mathias](http://gravatar.com/avatar/24e08a9ea84deb17ae121074d0f17125?s=70)](http://twitter.com/mathias "Follow @mathias on Twitter") |
 |---|

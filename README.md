@@ -2,6 +2,7 @@
 
 A fork from https://github.com/mathiasbynens/dotfiles, with some minor changes. I plan to make some more to "have it my way".
 
+
 ## Installation
 
 ### Using Git and the bootstrap script

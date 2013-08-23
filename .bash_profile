@@ -1,6 +1,6 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH"
-export PATH=$PATH:/usr/local/git/bin/
+export PATH=$PATH:/usr/local/git/bin
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.

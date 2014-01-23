@@ -1,16 +1,17 @@
+# My Alias
+alias c="clear"
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/Projects"
+alias d="cd /Volumes/Data/Development"
 alias h="history"
 alias j="jobs"
 alias v="vim"
@@ -18,13 +19,15 @@ alias m="mate ."
 alias s="subl ."
 alias o="open"
 alias oo="open ."
-alias ot="open -a Textmate"
 
 #GIT
 alias g="git"
 alias gc="git commit -m "
 alias ga="git add ."
 alias gac="git add .; git commit -m"
+alias gl="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+
 
 
 # Detect which `ls` flavor is in use
@@ -90,7 +93,7 @@ command -v md5sum > /dev/null || alias md5sum="md5"
 command -v sha1sum > /dev/null || alias sha1sum="shasum"
 
 # Trim new lines and copy to clipboard
-alias c="tr -d '\n' | pbcopy"
+#alias c="tr -d '\n' | pbcopy"
 
 # Recursively delete `.DS_Store` files
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"

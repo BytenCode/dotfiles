@@ -11,7 +11,7 @@ alias -- -="cd -"
 # Shortcuts
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias d="cd /Volumes/Data/Development"
+alias d="cd /Volumes/Data/Development" # CHANGE THIS FOR YOUR DEVELOPMENT FOLDER
 alias h="history"
 alias j="jobs"
 alias v="vim"
@@ -26,9 +26,6 @@ alias gc="git commit -m "
 alias ga="git add ."
 alias gac="git add .; git commit -m"
 alias gl="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-
-
-
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`

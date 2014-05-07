@@ -1,16 +1,16 @@
-# Ricardo Gomes’s dotfiles
+# Byte&Code’s dotfiles
 
-A fork from https://github.com/mathiasbynens/dotfiles, with some minor changes. I plan to make some more to "have it my way".
+A fork from https://github.com/mathiasbynens/dotfiles, with some minor changes. We plan to make some more to "have it our way".
 
 
 ## Installation
 
 ### Using Git and the bootstrap script
 
-You can clone the repository wherever you want. (I like to keep it in `~/Projects/dotfiles`, with `~/dotfiles` as a symlink.) The bootstrapper script will pull in the latest version and copy the files to your home folder.
+You can clone the repository wherever you want. (I like to keep it in `~/Development/dotfiles`, with `~/dotfiles` as a symlink.) The bootstrapper script will pull in the latest version and copy the files to your home folder.
 
 ```bash
-git clone https://github.com/ricardogomes/dotfiles.git && cd dotfiles && source bootstrap.sh
+git clone https://github.com/BytenCode/dotfiles.git && cd dotfiles && source bootstrap.sh
 ```
 
 To update, `cd` into your local `dotfiles` repository and then:

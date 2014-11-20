@@ -146,3 +146,10 @@ command -v grunt > /dev/null && alias grunt="grunt --stack"
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 7'"
 alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
+
+
+
+
+alias use_php53="brew unlink php54 && brew unlink php55 && brew unlink php53 && brew link php53"
+alias use_php54="brew unlink php55 && brew unlink php54 && brew link php54"
+alias use_php55="brew unlink php54 && brew unlink php55 && brew link php55"
